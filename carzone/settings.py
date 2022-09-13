@@ -26,7 +26,7 @@ SECRET_KEY = '934nw3r62@!m0^ksgw3#31tntglnr%td+-_b89xpu2@q2zqv=d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['floating-badlands-41165.herokuapp.com', 'carzoneapp.co', 'www.carzoneapp.co', 'ec2-44-204-158-111.compute-1.amazonaws.com']
+ALLOWED_HOSTS = ['floating-badlands-41165.herokuapp.com', 'carzoneapp.co', 'www.carzoneapp.co', 'ec2-44-204-158-111.compute-1.amazonaws.com', '*']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
